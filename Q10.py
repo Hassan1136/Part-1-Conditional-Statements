@@ -1,10 +1,22 @@
 
 # 10. Write a program to determine if a given character is a vowel or consonant.
 
-input_character = input("Enter a character: ")
-vowel = "aeiouAEIOU"
+char = input("Enter a character: ")
 
-if input_character in vowel:
-    print(input_character, "is a vowel.")
+if char == "a" or char == "A":
+    print(char, "is a vowel.")
+
+elif char == "e" or char == "E":
+    print(char, "is a vowel.")
+
+elif char == "i" or char == "I":
+    print(char, "is a vowel.")
+
+elif char == "o" or char == "O":
+    print(char, "is a vowel.")
+
+elif char == "u" or char == "U":
+    print(char, "is a vowel.")
+
 else:
-    print(input_character, "is a consonant.")
+    print(char, "is a consonant.") 

@@ -3,7 +3,7 @@
 
 num1 = int(input("Enter a first number: "))
 num2 = int(input("Enter a second number: "))
-operator = input("Enter an operator: ")
+operator = input("Enter an operator (+,-,*,/): ")
 
 if operator == "+" :
     print(num1, " + ", num2, " = ", num1 + num2)
